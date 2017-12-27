@@ -1,6 +1,6 @@
 function float210(list){
 	var a = '';
-	if(typeof list == 'object') for(var i in list){
+	if(typeof list == 'object') for(var i = 0; i < list.length;i++){
 		var a2 = list[i].toString(2)
         for(var i = a2.length;i<8;i++){
             a2 = '0'+a2;
